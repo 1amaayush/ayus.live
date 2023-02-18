@@ -139,9 +139,8 @@ footer {
     text-align: center
 }
 
-.top i {
-    color: #f39446;
-    display: none
+.top a{
+    color: #000000;
 }
 
 
@@ -290,16 +289,19 @@ footer {
 }
 
 #about {
+    text-align: center;
     padding: 75px 15px;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #000000;
     background: #ffffff
 }
 
 #about h2 {
+    text-align: center;
     color: #0a1828
 }
 
 #about p {
+    text-align: center;
     color: #000000;
     margin: 0
 }
@@ -386,7 +388,8 @@ footer {
 #hobbies {
     padding: 50px 15px;
     text-align: center;
-    background: #fff
+    background: #fff;
+    border-bottom: 1px solid #000
 }
 
 #hobbies h2 {
@@ -596,7 +599,7 @@ footer {
     }
 
     #about p {
-        text-align: left
+        text-align: center
     }
 }
 
