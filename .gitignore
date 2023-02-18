@@ -348,3 +348,11 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+
+# Netlify conflict
+*.json
+.js
+js/
+libs/
+scss/
