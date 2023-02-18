@@ -139,17 +139,6 @@ footer {
     text-align: center
 }
 
-.top span {
-    cursor: pointer;
-    display: block;
-    margin: 15px auto 0 auto;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    border: 3px solid #0A1828;
-    text-align: center
-}
-
 .top i {
     color: #0a1828
 }
@@ -179,21 +168,6 @@ footer {
 .social a:hover {
     color: #ffffff
 }
-
-/*-------------------socials page--------------------
-
-
-.socials li {
-    text-align: center ;
-    display:block;
-    font-size: 1.25em;
-    list-style: none;
-    
-}
-
-
--------------------------------------------------------------*/
-
 
 .btn-rounded-white {
     display: inline-block;
@@ -299,34 +273,6 @@ footer {
     background: rgba(39, 42, 44, 0.8);
     z-index: 1
 }
-/*
-#lead-down {
-    position: absolute;
-    left: 0;
-    right: 0;
-    width: 100%;
-    text-align: center;
-    z-index: 10;
-    bottom: 15px;
-    color: #005eff
-}
-
-#lead-down span {
-    cursor: pointer;
-    display: block;
-    margin: 0 auto;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    border: 3px solid #000000;
-    text-align: center
-}
-
-#lead-down i {
-    animation: pulsate 1.5s ease;
-    animation-iteration-count: infinite;
-    padding-top: 5px
-}*/
 
 @keyframes pulsate {
     0% {
@@ -356,8 +302,6 @@ footer {
     color: #000000;
     margin: 0
 }
-
-
 
 #education {
     padding: 50px 15px 20px 15px;
