@@ -458,20 +458,20 @@ footer {
     border-color: #000000;
     margin-bottom: 10px;
     background: #457B9D;
-    color: #E63946;
+    color: #000000;
     transition: .5s ease all
 }
 
 /**/
-#contact-form input::-webkit-input-placeholder,E63946
+#contact-form input::-webkit-input-placeholder,
 #contact-form textarea::-webkit-input-placeholder {
-    color: #E63946
+    color: #1D3557
 }
 
 /**/
 #contact-form input:-moz-placeholder,
 #contact-form textarea:-moz-placeholder {
-    color: #E63946;
+    color: #1D3557;
     opacity: 1
 }
 
