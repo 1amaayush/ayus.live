@@ -20,7 +20,7 @@ html {
 body {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
-    color:#000;
+    color:#1D3557;
     height: 100%;
 }
 
@@ -54,7 +54,7 @@ header {
 
 header ul {
     display: inline-block;
-    background: #00233F;
+    background: #E63946;
     text-align: center;
     padding: 10px;
     margin: 0;
@@ -69,14 +69,14 @@ header li {
 /*upper header text color*/
 header a {
     display: block;
-    color: #fff;
+    color: #A8DADC;
     padding: 10px
 }
 
 header a:hover {
-    color: #000;
+    color: #1D3557;
     text-decoration: none;
-    background: #fff;
+    background: #A8DADC;
     border-radius: 4px
 }
 
@@ -104,24 +104,24 @@ header.sticky {
     position: fixed;
     right: 15px;
     top: 10px;
-    color: #000;
+    color: #1D3557;
     font-size: 1.5em;
     z-index: 20;
     padding: 0 7px;
     border-radius: 4px;
-    background: #fff
+    background: #A8DADC
 }
 
 #mobile-menu-close {
     display: none;
     text-align: right;
     width: 100%;
-    background: #fff;
+    background: #A8DADC;
     font-size: 1.5em;
     padding-right: 15px;
     padding-top: 10px;
     cursor: pointer;
-    color: #000
+    color: #1D3557
 }
 
 #mobile-menu-close span {
@@ -135,7 +135,7 @@ header.sticky {
 
 footer {
     padding: 50px 0;
-    background: #F39446
+    background: #E63946
 }
 
 .copyright {
@@ -178,21 +178,21 @@ footer {
 }
 
 .social a:hover {
-    color: #ffffff
+    color: #A8DADC
 }
 
 .btn-rounded-white {
     display: inline-block;
-    color: #fff;
+    color: #A8DADC;
     padding: 15px 25px;
-    border: 3px solid #fff;
+    border: 3px solid #A8DADC;
     border-radius: 30px;
     transition: .5s ease all
 }
 
 .btn-rounded-white:hover {
     color: #3580b9;
-    background: #fff;
+    background: #A8DADC;
     text-decoration: none
 }
 
@@ -221,7 +221,7 @@ footer {
     left: 0;
     right: 0;
     margin: 0 auto;
-    background: #f39446
+    background: #E63946
 }
 
 
@@ -255,7 +255,7 @@ footer {
 }
 
 #lead-content h1 {
-    color: red;
+    color: #F1FAEE;
     font-weight: 900;
     font-size: 5em;
     text-transform: uppercase;
@@ -264,14 +264,14 @@ footer {
 }
 
 #lead-content h4 {
-    color: #f39446;
+    color: #A8DADC;
     font-weight: 500;
     font-size: 2.25em;
     margin-bottom: 15px
 }
 
 .typed {
-    color: red;
+    color: #E63946;
 }
 
 #lead-overlay {
@@ -303,8 +303,8 @@ footer {
 #about {
     text-align: center;
     padding: 75px 15px;
-    border-bottom: 1px solid #000000;
-    background: #ffffff
+    border-bottom: 1px solid #1D3557;
+    background: #A8DADC
 }
 
 #about h2 {
@@ -314,15 +314,15 @@ footer {
 
 #about p {
     text-align: center;
-    color: #000000;
+    color: #1D3557;
     margin: 0
 }
 
 #education {
     padding: 50px 15px 20px 15px;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #1D3557;
     text-align: center;
-    background: #fff
+    background: #A8DADC
 }
 
 #education h2 {
@@ -334,7 +334,7 @@ footer {
     max-width: 700px;
     margin: 0 auto 30px auto;
     padding: 15px;
-    border: 1px solid #f39446;
+    border: 1px solid #E63946;
     text-align: left
 }
 
@@ -342,7 +342,7 @@ footer {
     font-weight: 500;
     float: left;
     margin: 0;
-    color: #000
+    color: #1D3557
 }
 
 .education-block span {
@@ -371,7 +371,7 @@ footer {
 #skills {
     padding: 50px 15px;
     text-align: center;
-    background: #fff
+    background: #A8DADC
 }
 
 #skills h2 {
@@ -391,17 +391,19 @@ footer {
     margin: 7px;
     padding: 5px 10px;
     color: #0a1828;
-    background: #f39446;
+    background: #E63946;
     list-style: none;
     cursor: default;
-    font-size: 1.2em
+    font-size: 1.2em;
+    border-radius: 4px;
 }
 
 #hobbies {
     padding: 50px 15px;
     text-align: center;
-    background: #fff;
-    border-bottom: 1px solid #000
+    background: #A8DADC;
+    border-bottom: 1px solid #1D3557;
+    border-radius : 0
 }
 
 #hobbies h2 {
@@ -421,15 +423,16 @@ footer {
     margin: 7px;
     padding: 5px 10px;
     color: #0a1828;
-    background: #f39446;
+    background: #E63946;
     list-style: none;
     cursor: default;
-    font-size: 1.2em
+    font-size: 1.2em;
+    border-radius: 4px;
 }
 
 #contact {
     padding: 50px 15px;
-    background: #fff;
+    background: #A8DADC;
     text-align: center
 }
 
@@ -451,44 +454,45 @@ footer {
     width: 100%;
     padding: 10px;
     border-radius: 4px;
-    border: none;
+    border: 3;
+    border-color: #000000;
     margin-bottom: 10px;
-    background: #e2c0c0;
-    color: #000000;
+    background: #457B9D;
+    color: #E63946;
     transition: .5s ease all
 }
 
 /**/
-#contact-form input::-webkit-input-placeholder,
+#contact-form input::-webkit-input-placeholder,E63946
 #contact-form textarea::-webkit-input-placeholder {
-    color: #000000
+    color: #E63946
 }
 
 /**/
 #contact-form input:-moz-placeholder,
 #contact-form textarea:-moz-placeholder {
-    color: #000000;
+    color: #E63946;
     opacity: 1
 }
 
 /*text color before and after hover*/
 #contact-form input::-moz-placeholder,
 #contact-form textarea::-moz-placeholder {
-    color: #000000;
+    color: #1D3557;
     opacity: 1
 }
 
 /**/
 #contact-form input:-ms-input-placeholder,
 #contact-form textarea:-ms-input-placeholder {
-    color: #a17f7f
+    color: #1D3557
 }
 
 /*box color after click*/
 #contact-form input:focus,
 #contact-form textarea:focus {
     outline: none;
-    background: #a17f7f
+    background: #E63946
 }
 
 /*box color before click*/
@@ -501,7 +505,7 @@ footer {
 #contact-form button {
     display: block;
     width: 100%;
-    background: #e2c0c0;
+    background: #457B9D;
     border-radius: 4px;
     padding: 5px 10px;
     border: none;
@@ -522,7 +526,7 @@ footer {
 }
 
 .optional-section h2 {
-    color: #ffffff
+    color: #A8DADC
 }
 
 .optional-section-block {
@@ -530,7 +534,7 @@ footer {
     margin: 0 auto 30px auto;
     padding: 15px;
     border: 1px solid #dcd9d9;
-    background: #fff;
+    background: #A8DADC;
     text-align: left
 }
 
