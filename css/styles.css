@@ -69,14 +69,14 @@ header li {
 /*upper header text color*/
 header a {
     display: block;
-    color: #A8DADC;
+    color: #ffffff;
     padding: 10px
 }
 
 header a:hover {
     color: #1D3557;
     text-decoration: none;
-    background: #A8DADC;
+    background: #ffffff;
     border-radius: 4px
 }
 
@@ -109,14 +109,14 @@ header.sticky {
     z-index: 20;
     padding: 0 7px;
     border-radius: 4px;
-    background: #A8DADC
+    background: #ffffff
 }
 
 #mobile-menu-close {
     display: none;
     text-align: right;
     width: 100%;
-    background: #A8DADC;
+    background: #ffffff;
     font-size: 1.5em;
     padding-right: 15px;
     padding-top: 10px;
@@ -135,7 +135,7 @@ header.sticky {
 
 footer {
     padding: 50px 0;
-    background: #E63946
+    background: #000000
 }
 
 .copyright {
@@ -144,7 +144,7 @@ footer {
 
 .copyright p {
     margin: 0;
-    color: #0a1828
+    color: #ffffff
 }
 
 .top {
@@ -152,7 +152,7 @@ footer {
 }
 
 .top a{
-    color: #000000;
+    color: #ffffff;
 }
 
 
@@ -173,26 +173,26 @@ footer {
 
 .social a {
     display: block;
-    color: #00233F;
+    color: #ffffff;
     padding: 10px
 }
 
 .social a:hover {
-    color: #A8DADC
+    color: #ff0000
 }
 
 .btn-rounded-white {
     display: inline-block;
-    color: #A8DADC;
+    color: #ffffff;
     padding: 15px 25px;
-    border: 3px solid #A8DADC;
+    border: 3px solid #ffffff;
     border-radius: 30px;
     transition: .5s ease all
 }
 
 .btn-rounded-white:hover {
     color: #3580b9;
-    background: #A8DADC;
+    background: #ffffff;
     text-decoration: none
 }
 
@@ -264,7 +264,7 @@ footer {
 }
 
 #lead-content h4 {
-    color: #A8DADC;
+    color: #ffffff;
     font-weight: 500;
     font-size: 2.25em;
     margin-bottom: 15px
@@ -304,7 +304,7 @@ footer {
     text-align: center;
     padding: 75px 15px;
     border-bottom: 1px solid #1D3557;
-    background: #A8DADC
+    background: #ffffff
 }
 
 #about h2 {
@@ -322,7 +322,7 @@ footer {
     padding: 50px 15px 20px 15px;
     border-bottom: 1px solid #1D3557;
     text-align: center;
-    background: #A8DADC
+    background: #ffffff
 }
 
 #education h2 {
@@ -351,7 +351,7 @@ footer {
 }
 
 .education-block h4 {
-    color: #178582;
+    color: #E63946;
     clear: both;
     font-weight: 500;
     margin: 0 0 15px 0
@@ -371,7 +371,7 @@ footer {
 #skills {
     padding: 50px 15px;
     text-align: center;
-    background: #A8DADC
+    background: #ffffff
 }
 
 #skills h2 {
@@ -401,7 +401,7 @@ footer {
 #hobbies {
     padding: 50px 15px;
     text-align: center;
-    background: #A8DADC;
+    background: #ffffff;
     border-bottom: 1px solid #1D3557;
     border-radius : 0
 }
@@ -432,7 +432,7 @@ footer {
 
 #contact {
     padding: 50px 15px;
-    background: #A8DADC;
+    background: #ffffff;
     text-align: center
 }
 
@@ -526,7 +526,7 @@ footer {
 }
 
 .optional-section h2 {
-    color: #A8DADC
+    color: #ffffff
 }
 
 .optional-section-block {
@@ -534,7 +534,7 @@ footer {
     margin: 0 auto 30px auto;
     padding: 15px;
     border: 1px solid #dcd9d9;
-    background: #A8DADC;
+    background: #ffffff;
     text-align: left
 }
 
