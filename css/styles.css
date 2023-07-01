@@ -32,6 +32,49 @@ body.active {
     }
 }
 
+
+
+#menu.active {
+    display: block
+}
+
+#mobile-menu-open {
+    display: none;
+    cursor: pointer;
+    position: fixed;
+    right: 15px;
+    top: 10px;
+    color: #1D3557;
+    font-size: 1.5em;
+    z-index: 20;
+    padding: 0 7px;
+    border-radius: 4px;
+    background: #ffffff
+}
+
+#mobile-menu-close {
+    display: none;
+    text-align: right;
+    width: 100%;
+    background: #ffffff;
+    font-size: 1.5em;
+    padding-right: 15px;
+    padding-top: 10px;
+    cursor: pointer;
+    color: #1D3557
+}
+
+#mobile-menu-close span {
+    font-size: 0.5em;
+    text-transform: uppercase
+}
+
+#mobile-menu-close i {
+    vertical-align: middle
+}
+
+
+
 footer {
     padding: 50px 0;
     background: #070707
@@ -124,7 +167,7 @@ footer {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background: url(../images/lead.jpg);
+    background: url(../images/lead.webp);
     background-size: cover;
     padding: 15px;
     overflow: hidden
@@ -171,7 +214,6 @@ footer {
 }
 
 .typed-cursor{
-    font-size: 10000px
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
@@ -518,7 +560,35 @@ footer {
 }
 
 @media only screen and (max-width: 992px) {
-    lead 
+    #lead {
+        height: auto;
+        min-height: auto;
+        max-height: auto;
+        padding: 100px 15px
+    }
+
+    #lead-content {
+        position: relative;
+        transform: none;
+        left: auto;
+        top: auto
+    }
+
+    #lead-content h1 {
+        font-size: 3em
+    }
+
+    #lead-content h2 {
+        font-size: 1.75em
+    }
+
+    #about {
+        text-align: center
+    }
+
+    #about p {
+        text-align: center
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -609,6 +679,21 @@ footer {
     }
 }
 
+@media only screen and (max-width: 480px) {
+    #lead-content h1 {
+        font-size: 1.5em
+    }
+
+    #lead-content h2 {
+        font-size: 1em
+    }
+
+    #lead-content a {
+        font-size: 0.9em;
+        padding: 5px 10px
+    }
+
+}
 
 .menu{
     text-transform: capitalize;
