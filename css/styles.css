@@ -242,7 +242,7 @@ footer {
 
 #about p {
     text-align: left;
-    color: #119DA4;
+    color: #EFF1F3;
     margin: 0
 }
 
@@ -511,7 +511,7 @@ footer {
     border-bottom: 1px solid rgb(17, 157, 164);
     z-index: 1000;
     color: rgb(255, 255, 255);
-    background-color: rgba(17, 157, 164, 0.17);
+    background-color: rgba(17, 157, 164, 0.227);
 }
 
 .menu a:link {
@@ -523,15 +523,18 @@ footer {
 
 .menu a:visited {
     text-decoration: none;
+    color: #EFF1F3;
 }
 
 .menu a:hover {
     font-weight: 400;
     text-decoration: none;
+    color: #EFF1F3;
 }
 
 .menu a:active {
     text-decoration: none;
+    color: #EFF1F3;
 }
 
 .menu span {
