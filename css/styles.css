@@ -108,6 +108,7 @@ footer {
     min-height: 500px;
     max-height: 1080px;
     background: url(../images/lead.webp);
+    background-position: right;
     background-size: cover;
     padding: 15px;
     overflow: hidden
